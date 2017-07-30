@@ -1,0 +1,69 @@
+/* style for new website */
+
+html,
+body {
+	height: 96%;
+}
+
+img {
+	max-width:100%;
+}
+
+/* oover */
+#cover {
+	background: #222 url(../img/stars.jpg) center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption {
+	width:100%;
+}
+/* para centrar se agrego este parrafo (solo se centraron las forms 
+#cover-caption .container div form{
+    justify-content: center;
+}﻿
+*/
+
+div.navbar-collapse {
+	justify-content: flex-end;
+}
+/*
+form{
+    border:1px solid red;
+    width:59%; 
+    margin:0 auto;
+}
+*/
+div.form-group {
+	margin:0 1em 0 1em;
+}
+#carousel {
+	width:100%;
+}
+
+.cards {
+	padding: 5rem 0;
+}
+#about {
+	background: #222 url(../img/girlincar.jpg) center center no-repeat;
+	background-size: cover;
+}
+.about-text {
+	background-color: rgba(1, 1, 1, 0.5);
+	color: #fff;
+	padding: 3rem;
+	margin: 5rem;
+	padding-top: 3rem;
+}
+
+#footer-main {
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
